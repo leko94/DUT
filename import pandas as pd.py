@@ -9,6 +9,7 @@ from openpyxl import load_workbook
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # File path to the Excel file
 file_path = 'C:/Users/27643/Downloads/Chart in Microsoft PowerPoint.xlsx'
